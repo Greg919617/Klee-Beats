@@ -42,7 +42,7 @@ body{
 .mp_wrapper{
 	max-width:800px;
 	
-	margin:125px auto 0px auto;
+	margin:200px auto 0px auto;
 	position:relative;
 }
 
@@ -57,7 +57,6 @@ body{
 	-webkit-border-top-left-radius:10px;
 	border-top-left-radius:10px;
 }
-
 .mp_player{
 	position:absolute;
 	top:0px;
@@ -77,7 +76,7 @@ body{
 	right:585px;
 	width:215px;
 	height:526px;
-	/* background:transparent url(../images/bg.png) repeat top left; */
+	background:transparent url(../images/bg.png) repeat top left;
 	-moz-border-radius:0px 10px 10px 0px;
 	-webkit-border-top-right-radius:10px;
 	-webkit-border-bottom-right-radius:10px;
@@ -98,14 +97,14 @@ body{
 }
 .mp_description{
 	width:35%;
-	
+	font-size: 12px;
 	overflow:hidden;
 	text-overflow:ellipsis;
 	border:1px solid rgb(75, 190, 9);
 	margin:20px 20px 10px 20px;
 }
 .mp_description h2{
-	font-size:30px;
+	font-size:34px;
 
 	color:#f0f0f0;
 	background:transparent url(../images/bg.png) repeat top left;
@@ -126,21 +125,8 @@ body{
 	position:absolute;
 	right:20px;
 	top:20px;
-	border:1px solid rgb(75, 190, 9);
 }
 
-.navigation-menu{
-	position:sticky;
-}
-ui inverted menu{
-	margin: 50px auto 50px auto;
-}
-
-.cart-checkout{
-
-	padding: 2px 2px 0px 0px;
-
-}
 .mp_songs > div{
 	background:transparent url(../images/bg.png) repeat top left;
 	width:100%;

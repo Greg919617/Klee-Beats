@@ -126,21 +126,8 @@ body{
 	position:absolute;
 	right:20px;
 	top:20px;
-	border:1px solid rgb(75, 190, 9);
 }
 
-.navigation-menu{
-	position:sticky;
-}
-ui inverted menu{
-	margin: 50px auto 50px auto;
-}
-
-.cart-checkout{
-
-	padding: 2px 2px 0px 0px;
-
-}
 .mp_songs > div{
 	background:transparent url(../images/bg.png) repeat top left;
 	width:100%;

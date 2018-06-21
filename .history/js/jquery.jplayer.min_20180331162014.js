@@ -1,4 +1,16 @@
-
+/*
+ * jPlayer Plugin for jQuery JavaScript Library
+ * http://www.happyworm.com/jquery/jplayer
+ *
+ * Copyright (c) 2009 - 2010 Happyworm Ltd
+ * Dual licensed under the MIT and GPL licenses.
+ *  - http://www.opensource.org/licenses/mit-license.php
+ *  - http://www.gnu.org/copyleft/gpl.html
+ *
+ * Author: Mark J Panaghiston
+ * Version: 1.2.0
+ * Date: 11th July 2010
+ */
 
 (function(c){function k(a,b){var d=function(e){e=c[a][e]||[];return typeof e=="string"?e.split(/,?\s+/):e}("getter");return c.inArray(b,d)!=-1}c.fn.jPlayer=function(a){var b=typeof a=="string",d=Array.prototype.slice.call(arguments,1);if(b&&a.substring(0,1)=="_")return this;if(b&&k("jPlayer",a,d)){var e=c.data(this[0],"jPlayer");return e?e[a].apply(e,d):undefined}return this.each(function(){var h=c.data(this,"jPlayer");!h&&!b&&c.data(this,"jPlayer",new c.jPlayer(this,a))._init();h&&b&&c.isFunction(h[a])&&
 h[a].apply(h,d)})};c.jPlayer=function(a,b){this.options=c.extend({},b);this.element=c(a)};c.jPlayer.getter="jPlayerOnProgressChange jPlayerOnSoundComplete jPlayerVolume jPlayerReady getData jPlayerController";c.jPlayer.defaults={cssPrefix:"jqjp",swfPath:"js",volume:80,oggSupport:false,nativeSupport:true,preload:"none",customCssIds:false,graphicsFix:true,errorAlerts:false,warningAlerts:false,position:"absolute",width:"0",height:"0",top:"0",left:"0",quality:"high",bgcolor:"#ffffff"};c.jPlayer._config=

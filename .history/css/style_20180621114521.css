@@ -129,17 +129,10 @@ body{
 	border:1px solid rgb(75, 190, 9);
 }
 
-.navigation-menu{
-	position:sticky;
-}
-ui inverted menu{
-	margin: 50px auto 50px auto;
-}
-
 .cart-checkout{
-
+	margin:2px 2px 0px 0px;
 	padding: 2px 2px 0px 0px;
-
+	border:1px solid rgb(75, 190, 9);
 }
 .mp_songs > div{
 	background:transparent url(../images/bg.png) repeat top left;
