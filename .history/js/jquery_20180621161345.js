@@ -211,14 +211,22 @@
 					var title   	= $paths.find('.mp_song_title').html();
 					var mp3			= $paths.find('.mp_mp3').html();
 					var ogg			= $paths.find('.mp_ogg').html();
-					var album_id 	= $this.closest('.mp_content').attr('id');
+				
 					var song_index	= $this.parent().parent().index();
 					var song_idx	= album_id + '_' + song_index;
 					//add to playlist and play the song if none is there
 					addToPlayList(song_idx,title,mp3,ogg);
 				});
 				
+				/**
+				* we want to show on the album image, the play button for playing the whole album
+				*/
 			
+				
+				/**
+				* to play the whole album, we play the first song and add all the others to the playlist.
+				* playing the first one, guarantees us that the playlist is set to empty before
+				*/
 			
 				
 				/**

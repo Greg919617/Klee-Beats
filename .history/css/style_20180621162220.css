@@ -131,8 +131,7 @@ body{
 
 
 ui inverted menu{
-	padding: 50px 50px 50px 50px;
-	margin: 50px 50px 50px 50px;
+	padding: 50px auto 50px auto;
 }
 
 .cart-checkout{
