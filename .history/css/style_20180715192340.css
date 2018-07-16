@@ -54,7 +54,7 @@ body{
 }
 
 .contact-left{
-	width:100%;
+	width:75%;
 	border: solid 2px green;
 	height:100%;
 	padding-top:15px;
@@ -62,11 +62,9 @@ body{
 }
 
 .contact-right{
-	width:25%;
-	border: solid 2px green;
+	width:20%;
 	height:100%;
-	padding-top:15px;
-	padding-left:40px;
+	border:solid px red;
 }
 
 .mp_content_wrapper{
@@ -145,7 +143,7 @@ body{
 }
 .mp_songs{
 	width:320px;
-	height:480px;
+	height:403px;
 	position:absolute;
 	right:20px;
 	top:20px;

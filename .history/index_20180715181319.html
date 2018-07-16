@@ -73,15 +73,15 @@
 		</div>
 			
 
-				<div class="navigation-menu center" style="height:60px;">
+				<div class="navigation-menu center">
 				<div class="ui inverted menu center">
-					<a class="active item" style="height:100%">
+					<a class="active item">
 					  Home
 					</a>
-					<a class="item" style="height:100%">
+					<a class="item">
 					  Contact
 					</a>
-					<a class="item" style="height:100%">
+					<a class="item">
 					  Subscribe
 					</a>
 					
@@ -99,36 +99,6 @@
 						
 				  </div>
 				</div>
-				<div class="mp_contact_wrapper" 
-				style="
-					height: 150px;
-					border: 2px solid;">
-				
-					
-					<div class="contact-left">
-						<h3>Serious Inquiries Only</h3>
-						<p>Email: klee93@gmail.com
-							<br> Phone: 919-806-7473
-						</p>
-						<input type="button" value="Count" id="countButton" />
-						
-							<p>played <span id="displayCount">0</span> times.</p>
-						
-							<script type="text/javascript">
-							  var count = 0;
-							  var button = document.getElementById("countButton");
-							  var display = document.getElementById("displayCount");
-						
-							  button.onclick = function(){
-								count++;
-								display.innerHTML = count;
-							  }
-							</script>
-					</div>
-	
-				
-					</div>
-					
 
 		<div class="mp_wrapper">
 			<div id="mp_content_wrapper" class="mp_content_wrapper">
@@ -142,17 +112,28 @@
 					<div class="mp_description">
 						<h2>Instructions</h2>
 						<p>
-							<ul style="
-							padding: 10px;
-							font-size: 17px;
-						"> 
-							<li><span><strong>1. </strong></span>Click + next to the beat(s) you wish to order</li>		
-							<li><li><span><strong>2. </strong></span>A new Paypal window will open and show the beat(s).</li>
-							<li><li><span><strong>3. </strong></span>After payment you will receive the download links to your PayPal email address (please check your junk mail)</li>
+							<ul>
+							<li><span><strong>1. </strong></span>Click + ADD next to the beat(s) you wish to order</li>		
+							<li><li><span><strong>2. </strong></span>Select the license you require</li>
+							<li><li><span><strong>3. </strong></span>When you are ready to order, click Buy Now in the top right to redirect to make payment.</li>
+							<li><li><span><strong>4. </strong></span>After payment you will receive the download links to your beats to your PayPal email address (please check your junk mail)</li>
 							</ul>
 						</p>
 						<div>
+							<input type="button" value="Count" id="countButton" />
 							
+								<p>played <span id="displayCount">0</span> times.</p>
+							
+								<script type="text/javascript">
+								  var count = 0;
+								  var button = document.getElementById("countButton");
+								  var display = document.getElementById("displayCount");
+							
+								  button.onclick = function(){
+									count++;
+									display.innerHTML = count;
+								  }
+								</script>
 						</div>
 					</div>
 
@@ -162,13 +143,9 @@
 
 					
 					
-					<div class="mp_songs"
-						style="
-						padding-top: 10px;">					
+					<div class="mp_songs">					
 						<div>
-							<h3 style="
-							padding: 6px;"
-							>SanFran</h3>
+							<h3>SanFran</h3>
 							<div class="mp_options">
 								
 								<span class="mp_play" id="clickme" >Play</span>
@@ -203,10 +180,7 @@
 										<input type="image" name="submit"
 											onclick=getContinueShoppingURL(this.form)
 											src="images/add.png"
-											alt="Add to Cart" style="
-											padding-left: 10px;
-											padding-top: 7px;
-										">
+											alt="Add to Cart">
 										<!-- <img alt="" width="1" height="1"
 											src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" > -->
 									</form>
@@ -255,11 +229,7 @@
 										<input type="image" name="submit"
 											onclick=getContinueShoppingURL(this.form)
 											src="images/add.png"
-											alt="Add to Cart" 
-											style=
-											"padding-left: 10px;
-											padding-top: 7px;
-										">
+											alt="Add to Cart">
 										<!-- <img alt="" width="1" height="1"
 											src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" > -->
 									</form>
@@ -273,48 +243,10 @@
 
 
 						<div>
-								<h3>sih</h3>
+								<h3>sihh</h3>
 								<div class="mp_options">
-
-									<span class="mp_play" id="clickme" >Play</span>
-									<script type="text/javascript">
-										
-										function getContinueShoppingURL(form){
-										
-										// -- Get the href of the currently displayed webpage --
-										form.shopping_url.value = window.location.href;
-										}
-										//-->
-										</script>
-										
-										
-										<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">    <!-- Identify your business so that you can collect the payments. -->
-											<input type="hidden" name="business" value="kin@kinskards.com">
-										
-											<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-											<input type="hidden" name="cmd" value="_cart">
-											<input type="hidden" name="add" value="1">
-										
-											<!-- Specify details about the item that buyers will purchase. -->
-											<input type="hidden" name="item_name" value="Koren Song #3 - Hip Hop EP Song 1">
-											<input type="hidden" name="amount" value="30.00">
-											<input type="hidden" name="currency_code" value="USD">
-										
-											<!-- Continue shopping on the current webpage of the merchant site. -->
-											<!-- The below value is replaced when buyers click Add to Cart -->
-											<input type="hidden" name="shopping_url" value="">
-										
-											<!-- Display the payment button. -->
-											<input type="image" name="submit"
-												onclick=getContinueShoppingURL(this.form)
-												src="images/add.png"
-												alt="Add to Cart" style="
-												padding-left: 10px;
-												padding-top: 7px;
-											">
-											<!-- <img alt="" width="1" height="1"
-												src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" > -->
-										</form>
+									<span class="mp_play">Play</span>
+									<span class="mp_addpl">Add to Cart</span>
 								</div>
 								<div class="mp_song_info" style="display:none;">
 									<span class="mp_song_title">sihh</span>
@@ -333,7 +265,10 @@
 				</div>
 		
 			
-			<div class="mp_player">				
+			<div class="mp_player">
+			
+				
+			
 				<div id="jquery_jplayer"></div>
 				<div class="jp-playlist-player">
 					<div class="jp-interface">
@@ -405,7 +340,28 @@
 			<div xmlns:cc="https://creativecommons.org/ns#" about="urn:sha1:SFMAAK7FTYXXBHDZUWL7QNJJAUE5WD4J"><a rel="cc:attributionURL" property="cc:attributionName" href="https://ccmixter.org/people/ramblinglibrarian/profile">Music Samples by Koren Lee</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Charlotte - NC </a></div>
 		</div> -->
 
+		<div class="def-block clearfix">
+			<h4> Contact With US </h4><span class="liner"></span>
 
+			<div class="grid_6 mt">
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+				<p>It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+				<p>Phone: <strong> 001 00125548 </strong> <br> Email: <strong>info@remixmusic.com</strong></p>
+			</div><!-- end grid6 -->
+
+			<div class="grid_6 mt">
+				<form method="post" id="contactForm" action="processForm.php">
+					<div class="clearfix">
+						<div class="grid_6 alpha fll"><input type="text" name="senderName" id="senderName" placeholder="Name *" class="requiredField" /></div>
+						<div class="grid_6 omega flr"><input type="text" name="senderEmail" id="senderEmail" placeholder="Email Address *" class="requiredField email" /></div>
+					</div>
+					<div><textarea name="message" id="message" placeholder="Message *" class="requiredField" rows="8"></textarea></div>
+					<input type="submit" id="sendMessage" name="sendMessage" value="Send Email" />
+					<span>  </span>
+				</form><!-- end form -->
+			</div><!-- end grid6 -->
+
+		</div><!-- def block -->
 
     </body>
 </html>

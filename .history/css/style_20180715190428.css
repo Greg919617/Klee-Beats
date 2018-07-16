@@ -42,31 +42,15 @@ body{
 .mp_wrapper{
 	max-width:800px;
 	
-	margin:15px auto 0px auto;
+	margin:125px auto 0px auto;
 	position:relative;
 }
 
 .mp_contact_wrapper{
 	max-width:800px;
 	background:transparent url(../images/bg.png) repeat top left;
-	margin:50px auto 0px auto;
+	margin:15px auto 0px auto;
 	position:relative;
-}
-
-.contact-left{
-	width:100%;
-	border: solid 2px green;
-	height:100%;
-	padding-top:15px;
-	padding-left:40px;
-}
-
-.contact-right{
-	width:25%;
-	border: solid 2px green;
-	height:100%;
-	padding-top:15px;
-	padding-left:40px;
 }
 
 .mp_content_wrapper{
@@ -145,7 +129,7 @@ body{
 }
 .mp_songs{
 	width:320px;
-	height:480px;
+	height:403px;
 	position:absolute;
 	right:20px;
 	top:20px;

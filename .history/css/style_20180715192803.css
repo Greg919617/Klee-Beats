@@ -54,7 +54,7 @@ body{
 }
 
 .contact-left{
-	width:100%;
+	width:60%;
 	border: solid 2px green;
 	height:100%;
 	padding-top:15px;
@@ -145,7 +145,7 @@ body{
 }
 .mp_songs{
 	width:320px;
-	height:480px;
+	height:403px;
 	position:absolute;
 	right:20px;
 	top:20px;

@@ -5,12 +5,12 @@
 
 
 
-// var button = document.getElementById("totalplays"),
-// count = 0;
-// button.onclick = function() {
-// count += 1;
-// button.innerHTML = "Total Streams: " + count;
-// };
+var button = document.getElementById("totalplays"),
+count = 0;
+button.onclick = function() {
+count += 1;
+button.innerHTML = "Total Streams: " + count;
+};
 
 
 
