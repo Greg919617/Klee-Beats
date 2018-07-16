@@ -189,44 +189,7 @@
 							<div class="mp_options">
 								
 								<button class="mp_play" id="countPlays" >Play</button>
-								<script type="text/javascript">
-									
-									function getContinueShoppingURL(form){
-									
-									// -- Get the href of the currently displayed webpage --
-									form.shopping_url.value = window.location.href;
-									}
-									//-->
-									</script>
-									
-									
-									<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">    <!-- Identify your business so that you can collect the payments. -->
-										<input type="hidden" name="business" value="kin@kinskards.com">
-									
-										<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-										<input type="hidden" name="cmd" value="_cart">
-										<input type="hidden" name="add" value="1">
-									
-										<!-- Specify details about the item that buyers will purchase. -->
-										<input type="hidden" name="item_name" value="Koren Song #1 - Hip Hop EP Song 1">
-										<input type="hidden" name="amount" value="30.00">
-										<input type="hidden" name="currency_code" value="USD">
-									
-										<!-- Continue shopping on the current webpage of the merchant site. -->
-										<!-- The below value is replaced when buyers click Add to Cart -->
-										<input type="hidden" name="shopping_url" value="">
-									
-										<!-- Display the payment button. -->
-										<input type="image" name="submit"
-											onclick=getContinueShoppingURL(this.form)
-											src="images/add.png"
-											alt="Add to Cart" style="
-											padding-left: 10px;
-											padding-top: 7px;
-										">
-										<!-- <img alt="" width="1" height="1"
-											src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" > -->
-									</form>
+							
 								
 							</div>
 							<div class="mp_song_info" style="display:none;">

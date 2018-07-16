@@ -176,7 +176,6 @@ ui inverted menu{
 	float:left;
 }
 .mp_options{
-	display:flex;
 	width:48px;
 	float:right;
 }

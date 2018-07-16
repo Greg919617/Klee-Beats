@@ -77,20 +77,17 @@
 		</div>
 			
 
-				<div class="navigation-menu" style="height:60px; margin-left:20%; margin-right:20%; margin:20px 0px;">
-				<div class="ui inverted menu">
-					<a class="active item" style="height:100%; margin-left:20%; margin-right:20%; margin:20px 0px;">
+				<div class="navigation-menu center" style="height:60px;">
+				<div class="ui inverted menu center">
+					<a class="active item" style="height:100%">
 					  Home
 					</a>
 					<a class="item" style="height:100%">
-					  Package Discounts
+					  Contact
 					</a>
 					<a class="item" style="height:100%">
 					  Subscribe
 					</a>
-					<a class="item" style="height:100%">
-						Login
-					  </a>
 					
 
 					
@@ -123,23 +120,15 @@
 							
 							<script src="js/store.legacy.min.js"></script>
 							<script type="text/javascript">
-							function setCountConfig(id, idDisplay) {
-								var count = store.get('count');
-								var button = document.getElementById(id);
-								var display = document.getElementById(idDisplay);
-							
-								button.onclick = function(){
-									count++;
-									store.set('count', count)
-									display.innerHTML = count;
-								}
+							  var count = store.get('count');
+							  var button = document.getElementById("countButton");
+							  var display = document.getElementById("displayCount");
+						
+							  button.onclick = function(){
+								count++;
+								store.set('count', count)
 								display.innerHTML = count;
-							}
-							
-							window.onload = function(){
-							setCountConfig ("countButton", "displayCount")
-							setCountConfig ("countPlays", "displayCount")
-							}							
+							  }
 							</script>
 					</div>
 	
@@ -188,7 +177,7 @@
 							>SanFran</h3>
 							<div class="mp_options">
 								
-								<button class="mp_play" id="countPlays" >Play</button>
+								<span class="mp_play" id="clickme" >Play</span>
 								<script type="text/javascript">
 									
 									function getContinueShoppingURL(form){
